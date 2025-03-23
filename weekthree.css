@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    height:100vh;
+    width:100vw;
+    background-image: url("tumblr_839357ea6275db93b26830442d2b09ca_e1724104_500.gif");
+    background-color: black;
+    background-size: cover;
+}
+
+header {
+    height: 20vh;
+    background-color: black;
+    font-size: 80px;
+    color:azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
